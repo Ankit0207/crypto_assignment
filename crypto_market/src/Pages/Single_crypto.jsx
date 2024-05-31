@@ -12,18 +12,21 @@ import { useDispatch, useSelector } from 'react-redux';
 import { getSingleCrypto } from '../Redux/CryptoReducer/Action';
 import { Link, useParams } from 'react-router-dom';
 import Chart from '../Components/Chart';
+import SingleCryptoSkeleton from "../Components/SingleCryptoSkeleton";
+
 
 const Single_crypto = () => {
     const single_crypto = useSelector((state) => state.cryptoReducer.single_crypto);
+    const isLoading = useSelector((state) => state.cryptoReducer.isLoading);
     const dispatch = useDispatch();
     const { id } = useParams();
 
     useEffect(() => {
         dispatch(getSingleCrypto(id));
     }, []);
-    console.log(single_crypto)
-    return (
-        <Box bg="gray.50">
+
+    return (<Box>
+        { isLoading?<SingleCryptoSkeleton/>:<Box bg="gray.50">
             <Box as="header" bg="blue.600" w={"100%"} margin={"auto"}>
                 <Box p="10px" px={"50px"}>
                     <Flex as="nav" justify="space-between" align="center" color="white" >
@@ -53,14 +56,12 @@ const Single_crypto = () => {
                         <Text mb={4} fontWeight={"bold"} fontSize={"md"}>{single_crypto?.description?.en}</Text>
                     </Flex>
                 </Flex>
-
                 <Box>
                     <Chart />
                 </Box>
             </Box>
-
-        </Box>
-    )
+        </Box>}
+    </Box>)
 }
 
 export default Single_crypto

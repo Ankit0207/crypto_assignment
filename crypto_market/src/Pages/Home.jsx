@@ -4,9 +4,11 @@ import { Box } from '@chakra-ui/react'
 import { useDispatch, useSelector } from 'react-redux';
 import { getCrypto } from '../Redux/CryptoReducer/Action';
 import Header from '../Components/Header';
+import CryptoSkeleton from '../Components/CryptoSkeleton';
 
 const Home = () => {
     const cryptos = useSelector((state) => state.cryptoReducer.cryptos);
+    const isLoading = useSelector((state) => state.cryptoReducer.isLoading);
     const dispatch = useDispatch();
 
     useEffect(() => {
@@ -20,7 +22,8 @@ const Home = () => {
             </header>
             <main>
                 < Box bg="gray.50" >
-                    <Crypto cryptos={cryptos} />
+                    {isLoading ? <CryptoSkeleton/> :
+                        <Crypto cryptos={cryptos} />}
                 </Box>
 
             </main>
