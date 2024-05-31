@@ -1,70 +1,65 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Crypto Metric  📈
 
-## Available Scripts
+## Overview 🔔
+Welcome to the Crypto Metric, a sophisticated web application designed to offer live updates on the prices of cryptocurrencies listed on the financial market. The application fetches real-time data from trusted sources, presenting users with current market trends. Users can explore detailed information on each cryptocurrency, including pricing details and optional price movement graphs. This app leverages React for the frontend and Redux for effective state management.
 
-In the project directory, you can run:
+## Live Demo 🖊️
+Check out the live application: [https://crypto-assignment-ashen.vercel.app/]
 
-### `npm start`
+## TechStacks
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Chakra UI: For a sleek design.
+- React: Ensuring a dynamic and responsive user interface.
+- Redux: For robust state management.
+- Axios: To handle API requests seamlessly.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Core Features
 
-### `npm test`
+- Dashboard: Displays live prices of listed cryptocurrencies.
+- Detail Pages: Includes comprehensive details on each cryptocurrency.
+- Graphs: Feature to display price trends.
+- Real-Time Updates: Instant updates ensure you have the latest information.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Getting Started
 
-### `npm run build`
+To run this project locally, follow the steps below:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Clone the Repository
+```
+git clone https://github.com/Ankit0207/crypto_assignment.git
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Install Dependencies
+- Navigate to the application directory and install the required dependencies:
+```
+cd crypto_market
+npm install
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Run the Application
+```
+npm run start
+```
 
-### `npm run eject`
+## Application Design
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Dashboard
+- An interface displaying live cryptocurrency prices.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+![n1](https://github.com/Ankit0207/crypto_assignment/blob/main/crypto_market/src/Assets/React%20App%20-%20Brave%2031-05-2024%2018_10_27.png)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Crypto Details Page
+- Detailed view of cryptocurrency information, including price changes and trends.
 
-## Learn More
+![n2](https://github.com/Ankit0207/crypto_assignment/blob/main/crypto_market/src/Assets/React%20App%20-%20Brave%2031-05-2024%2018_12_20.png)
+![n3](https://github.com/Ankit0207/crypto_assignment/blob/main/crypto_market/src/Assets/React%20App%20-%20Brave%2031-05-2024%2018_12_30.png)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Design Philosophy
+The application adopts a modern, minimalist design to ensure a clean and user-friendly interface. The focus is on providing users with clear, accessible information, and an intuitive navigation experience.
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Thanks & Acknowledgments 🙏
+We appreciate your interest in the Crypto Metric. We hope this tool proves useful in tracking the live prices of your favorite cryptocurrencies. For any questions or feedback, please reach out to us.
