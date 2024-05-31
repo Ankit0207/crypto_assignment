@@ -5,7 +5,7 @@
 Welcome to the Crypto Metric, a sophisticated web application designed to offer live updates on the prices of cryptocurrencies listed on the financial market. The application fetches real-time data from trusted sources, presenting users with current market trends. Users can explore detailed information on each cryptocurrency, including pricing details and optional price movement graphs. This app leverages React for the frontend and Redux for effective state management.
 
 ## Live Demo 🖊️
-Frontend: [https://crypto-assignment-ashen.vercel.app/]
+Check out the live application: [https://crypto-assignment-ashen.vercel.app/]
 
 ## TechStacks
 
