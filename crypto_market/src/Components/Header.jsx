@@ -9,7 +9,7 @@ const Header = () => {
         <Flex align="center" justify="space-between">
           <Heading as="h2" size="lg" color="white">
             <Link href="#" color="white" _hover={{ textDecoration: 'none' }}>
-              Stock Metric
+              Crypto Metric
             </Link>
           </Heading>
           <Flex align="center" color="white">
