@@ -27,7 +27,7 @@ To run this project locally, follow the steps below:
 
 ## Clone the Repository
 ```
-git clone https://github.com/MayankBelwal05/pepsales-Assignment.git
+git clone https://github.com/Ankit0207/crypto_assignment.git
 ```
 
 ## Install Dependencies
