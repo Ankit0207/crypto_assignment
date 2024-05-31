@@ -51,7 +51,7 @@ npm run start
 ![n1](https://github.com/Ankit0207/crypto_assignment/blob/main/crypto_market/src/Assets/React%20App%20-%20Brave%2031-05-2024%2018_10_27.png)
 
 ### Crypto Details Page
--Detailed view of cryptocurrency information, including price changes and trends.
+- Detailed view of cryptocurrency information, including price changes and trends.
 
 ![n2](https://github.com/Ankit0207/crypto_assignment/blob/main/crypto_market/src/Assets/React%20App%20-%20Brave%2031-05-2024%2018_12_20.png)
 ![n3](https://github.com/Ankit0207/crypto_assignment/blob/main/crypto_market/src/Assets/React%20App%20-%20Brave%2031-05-2024%2018_12_30.png)
