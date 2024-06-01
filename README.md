@@ -58,9 +58,8 @@ npm run start
 - Detailed view of cryptocurrency information, including price changes and trends.
 
 ![n3](https://github.com/Ankit0207/crypto_assignment/blob/main/crypto_market/src/Assets/React%20App%20-%20Brave%2001-06-2024%2015_21_07.png)
-![n4](https://github.com/Ankit0207/crypto_assignment/blob/main/crypto_market/src/Assets/React%20App%20-%20Brave%2001-06-2024%2015_16_39.png)
-![n5](https://github.com/Ankit0207/crypto_assignment/blob/main/crypto_market/src/Assets/React%20App%20-%20Brave%2001-06-2024%2015_21_07.png)
-
+![n4](https://github.com/Ankit0207/crypto_assignment/blob/main/crypto_market/src/Assets/React%20App%20-%20Brave%2001-06-2024%2015_16_31.png)
+![n5](https://github.com/Ankit0207/crypto_assignment/blob/main/crypto_market/src/Assets/React%20App%20-%20Brave%2001-06-2024%2015_16_39.png)
 
 ## Design Philosophy
 The application adopts a modern, minimalist design to ensure a clean and user-friendly interface. The focus is on providing users with clear, accessible information, and an intuitive navigation experience.
