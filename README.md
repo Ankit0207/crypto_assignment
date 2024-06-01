@@ -20,6 +20,8 @@ Check out the live application: [https://crypto-assignment-ashen.vercel.app/]
 - Detail Pages: Includes comprehensive details on each cryptocurrency.
 - Graphs: Feature to display price trends.
 - Real-Time Updates: Instant updates ensure you have the latest information.
+- Responsive Design: Optimized for various devices, including mobile.
+- Skeleton Loading: Provides a loading animation to enhance user experience.
 
 ## Getting Started
 
@@ -47,14 +49,17 @@ npm run start
 
 ### Dashboard
 - An interface displaying live cryptocurrency prices.
+- 
 
-![n1](https://github.com/Ankit0207/crypto_assignment/blob/main/crypto_market/src/Assets/React%20App%20-%20Brave%2031-05-2024%2018_10_27.png)
+![n1](https://github.com/Ankit0207/crypto_assignment/blob/main/crypto_market/src/Assets/Screenshot%2001-06-2024%2015_17_44.png)
+![n2](https://github.com/Ankit0207/crypto_assignment/blob/main/crypto_market/src/Assets/Screenshot%2001-06-2024%2015_16_25.png)
 
 ### Crypto Details Page
 - Detailed view of cryptocurrency information, including price changes and trends.
 
-![n2](https://github.com/Ankit0207/crypto_assignment/blob/main/crypto_market/src/Assets/React%20App%20-%20Brave%2031-05-2024%2018_12_20.png)
-![n3](https://github.com/Ankit0207/crypto_assignment/blob/main/crypto_market/src/Assets/React%20App%20-%20Brave%2031-05-2024%2018_12_30.png)
+![n3](https://github.com/Ankit0207/crypto_assignment/blob/main/crypto_market/src/Assets/React%20App%20-%20Brave%2001-06-2024%2015_21_07.png)
+![n4](https://github.com/Ankit0207/crypto_assignment/blob/main/crypto_market/src/Assets/React%20App%20-%20Brave%2001-06-2024%2015_16_39.png)
+![n5](https://github.com/Ankit0207/crypto_assignment/blob/main/crypto_market/src/Assets/React%20App%20-%20Brave%2001-06-2024%2015_21_07.png)
 
 
 ## Design Philosophy
