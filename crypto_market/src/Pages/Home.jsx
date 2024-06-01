@@ -3,8 +3,8 @@ import Crypto from '../Components/Crytpo'
 import { Box } from '@chakra-ui/react'
 import { useDispatch, useSelector } from 'react-redux';
 import { getCrypto } from '../Redux/CryptoReducer/Action';
-import Header from '../Components/Header';
 import CryptoSkeleton from '../Components/CryptoSkeleton';
+import Navbar from '../Components/Navbar';
 
 const Home = () => {
     const cryptos = useSelector((state) => state.cryptoReducer.cryptos);
@@ -18,7 +18,7 @@ const Home = () => {
     return (
         <div>
             <header>
-                <Header />
+                <Navbar />
             </header>
             <main>
                 < Box bg="gray.50" >

@@ -11,7 +11,7 @@ const CryptoSkeleton = ({ count = 40 }) => {
   return (
     <Flex wrap="wrap" justify="center" gap={8} w={"90%"} margin={"auto"} pt={"55px"}>
       {Array.from({ length: count }).map((_, index) => (
-        <Box key={index} w="23%">
+        <Box key={index} w={{ base: "90%", md: "46%",lg:"30.6%" }}>
           <Flex p={4} w="100%" h={"100%"} d="flex" flexDirection="column" gap={"8px"} borderRadius="lg" bg="gray.100">
             <Flex justify="space-between" align="center">
               <SkeletonCircle size="20" />

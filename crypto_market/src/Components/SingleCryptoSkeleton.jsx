@@ -23,22 +23,22 @@ const SingleCryptoSkeleton = () => {
         </Box>
       </Box>
 
-      <Box as="section" py={8} w={"90%"} margin={"auto"}>
-        <Flex justify={"space-between"} my={4} w={"100%"}>
-          <Flex direction="column" gap={4} align="center" w={"20%"} className="image-container">
+      <Box as="section" py={8} mx={"auto"} w={{ base: "90%", md: "80%", lg: "90%" }} mb={"2"}>
+        <Flex direction={{ base: "column", md: "row" }} justify={"space-between"} my={4} >
+          <Flex direction="column" gap={4} align="center" w={{ base: "100%", md: "30%" }} className="image-container">
             <SkeletonCircle size="200px" />
             <Box textAlign="center">
               <SkeletonText mt="4" noOfLines={2} spacing="4" />
-              <Skeleton height="24px" width="50px" mt="4" />
+              <Skeleton width="50px" mt="4" />
             </Box>
           </Flex>
-          <Flex direction="column" w={"75%"} className="company-details">
+          <Flex direction="column" w={{ base: "100%", md: "65%" }} className="company-details" mt={10}>
             <Skeleton height="32px" mb={4} width="300px" />
             <SkeletonText mt="4" noOfLines={6} spacing="4" />
           </Flex>
         </Flex>
 
-        <Box>
+        <Box mt={"50px"}>
           <Skeleton height="400px" />
         </Box>
       </Box>

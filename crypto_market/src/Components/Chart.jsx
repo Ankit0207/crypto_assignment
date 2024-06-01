@@ -25,16 +25,15 @@ export default function Chart() {
         datasets: [{
             label: 'Price (INR)',
             data: cryptoPrices,
-            fill: false,
-            borderColor: 'green',
-            // tension: 0.1
+            fill: true,
+            borderColor: 'green'
         }]
     };
 
     return (
-        <div style={{ width: '90%', margin: 'auto' }}>
+        <div style={{ width: '90%', margin: 'auto'}}>
             <Line data={data}
-                legendtoggle="true" />
+                legendtoggle="true"/>
         </div>
     )
 }
