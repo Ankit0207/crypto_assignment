@@ -49,7 +49,6 @@ npm run start
 
 ### Dashboard
 - An interface displaying live cryptocurrency prices.
-- 
 
 ![n1](https://github.com/Ankit0207/crypto_assignment/blob/main/crypto_market/src/Assets/Screenshot%2001-06-2024%2015_17_44.png)
 ![n2](https://github.com/Ankit0207/crypto_assignment/blob/main/crypto_market/src/Assets/Screenshot%2001-06-2024%2015_16_25.png)
