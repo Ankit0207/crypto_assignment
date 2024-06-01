@@ -62,7 +62,7 @@ const Single_crypto = () => {
                         </Flex>
                         <Flex direction="column" w={{ base: "100%", md: "65%" }} className="company-details">
                             <Heading fontSize={{ base: "2xl", md: "3xl" }} mb={4}>{single_crypto?.name}</Heading>
-                            <Text mb={4} fontSize={{ base: "md", md: "lg" }}>{single_crypto?.description?.en}</Text>
+                            <Text mb={4} fontSize={"md"}>{single_crypto?.description?.en}</Text>
                         </Flex>
                     </Flex>
                     <Box>
